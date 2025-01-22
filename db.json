@@ -1,5 +1,77 @@
 {
   "projects": [
+    {
+                "generalInformation": {
+                    "id": "EDMERP-2024-002",
+                    "revisionDate": "2024-02-01",
+                    "projectName": "Adriatic Water Quality Monitoring",
+                    "projectAcronym": "AWQM",
+                    "projectReference": "WQ-2024-001",
+                    "associatedProgramme": {
+                        "title": "Marine Water Quality Programme",
+                        "revisionDate": "2024-01-15",
+                        "programmeId": "MWQP-2024"
+                    },
+                    "projectWebsite": "https://awqm.eu",
+                    "abstract": "Continuous monitoring of Adriatic Sea water quality",
+                    "period": {
+                        "startDate": "2024-03-01",
+                        "endDate": "2026-02-28"
+                    }
+                },
+                "dataThemes": {
+                    "themes": [
+                        {
+                            "name": "Water Quality",
+                            "codeP08": "P08002"
+                        },
+                        {
+                            "name": "Marine Pollution",
+                            "codeP08": "P08004"
+                        }
+                    ]
+                },
+                "geographicalArea": {
+                    "seaAreas": [
+                        {
+                            "name": "Mediterranean Sea",
+                            "codeC19": "MED002"
+                        }
+                    ],
+                    "geographicalCoverageDescription": "Northern Adriatic Sea"
+                },
+                "reference": [
+                    {
+                        "title": "Water Quality Assessment Methods",
+                        "publicationDate": "2023-11-15",
+                        "author": "Dr. Anna Verdi",
+                        "editor": "Environmental Science Press"
+                    }
+                ],
+                "coordinator": {
+                    "individualName": "Dr. Paolo Rossi",
+                    "organization": {
+                        "organisationName": "CNR-ISMAR",
+                        "sdnIdentId": "SDN004",
+                        "role": "Scientific Coordinator",
+                        "address": {
+                            "deliveryPoint": "Arsenale - Tesa 104",
+                            "city": "Venice",
+                            "area": "Veneto",
+                            "postalCode": "30122",
+                            "country": "Italy"
+                        },
+                        "contact": {
+                            "phone": "+39 041 2407927",
+                            "fax": "+39 041 2407940",
+                            "email": "info@ismar.cnr.it",
+                            "website": "www.ismar.cnr.it"
+                        }
+                    }
+                },
+                "partners": [],
+                "collateCentre": []
+            },
                 {
                 "generalInformation": {
                     "id": "EDMERP-2024-001",
