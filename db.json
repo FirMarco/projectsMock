@@ -1,6 +1,7 @@
 {
   "projects": [
     {
+                "id": 1,
                 "generalInformation": {
                     "id": "EDMERP-2024-002",
                     "revisionDate": "2024-02-01",
@@ -73,6 +74,7 @@
                 "collateCentre": []
             },
                 {
+                  "id": 2,
                 "generalInformation": {
                     "id": "EDMERP-2024-001",
                     "revisionDate": "2024-01-15",
