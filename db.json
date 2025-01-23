@@ -1,9 +1,7 @@
 {
   "projects": [
     {
-                "id": 1,
-                "generalInformation": {
-                    "id": "EDMERP-2024-002",
+                "id": "EDMERP-2024-002",
                     "revisionDate": "2024-02-01",
                     "projectName": "Adriatic Water Quality Monitoring",
                     "projectAcronym": "AWQM",
@@ -19,7 +17,7 @@
                         "startDate": "2024-03-01",
                         "endDate": "2026-02-28"
                     }
-                },
+                
                 "dataThemes": {
                     "themes": [
                         {
@@ -74,8 +72,6 @@
                 "collateCentre": []
             },
                 {
-                  "id": 2,
-                "generalInformation": {
                     "id": "EDMERP-2024-001",
                     "revisionDate": "2024-01-15",
                     "projectName": "Mediterranean Biodiversity Assessment",
@@ -92,7 +88,7 @@
                         "startDate": "2024-01-01",
                         "endDate": "2025-12-31"
                     }
-                },
+                
                 "dataThemes": {
                     "themes": [
                         {
