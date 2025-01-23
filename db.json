@@ -1,188 +1,186 @@
 {
-  "projects": [
-    {
-                "id": "EDMERP-2024-002",
-                    "revisionDate": "2024-02-01",
-                    "projectName": "Adriatic Water Quality Monitoring",
-                    "projectAcronym": "AWQM",
-                    "projectReference": "WQ-2024-001",
-                    "associatedProgramme": {
-                        "title": "Marine Water Quality Programme",
-                        "revisionDate": "2024-01-15",
-                        "programmeId": "MWQP-2024"
-                    },
-                    "projectWebsite": "https://awqm.eu",
-                    "abstract": "Continuous monitoring of Adriatic Sea water quality",
-                    "period": {
-                        "startDate": "2024-03-01",
-                        "endDate": "2026-02-28"
-                    }
-                
-                "dataThemes": {
-                    "themes": [
-                        {
-                            "name": "Water Quality",
-                            "codeP08": "P08002"
-                        },
-                        {
-                            "name": "Marine Pollution",
-                            "codeP08": "P08004"
-                        }
-                    ]
-                },
-                "geographicalArea": {
-                    "seaAreas": [
-                        {
-                            "name": "Mediterranean Sea",
-                            "codeC19": "MED002"
-                        }
-                    ],
-                    "geographicalCoverageDescription": "Northern Adriatic Sea"
-                },
-                "reference": [
-                    {
-                        "title": "Water Quality Assessment Methods",
-                        "publicationDate": "2023-11-15",
-                        "author": "Dr. Anna Verdi",
-                        "editor": "Environmental Science Press"
-                    }
-                ],
-                "coordinator": {
-                    "individualName": "Dr. Paolo Rossi",
-                    "organization": {
-                        "organisationName": "CNR-ISMAR",
-                        "sdnIdentId": "SDN004",
-                        "role": "Scientific Coordinator",
-                        "address": {
-                            "deliveryPoint": "Arsenale - Tesa 104",
-                            "city": "Venice",
-                            "area": "Veneto",
-                            "postalCode": "30122",
-                            "country": "Italy"
-                        },
-                        "contact": {
-                            "phone": "+39 041 2407927",
-                            "fax": "+39 041 2407940",
-                            "email": "info@ismar.cnr.it",
-                            "website": "www.ismar.cnr.it"
-                        }
-                    }
-                },
-                "partners": [],
-                "collateCentre": []
-            },
-                {
-                    "id": "EDMERP-2024-001",
-                    "revisionDate": "2024-01-15",
-                    "projectName": "Mediterranean Biodiversity Assessment",
-                    "projectAcronym": "MedBio",
-                    "projectReference": "MB-2024-001",
-                    "associatedProgramme": {
-                        "title": "European Marine Biodiversity Programme",
-                        "revisionDate": "2024-01-01",
-                        "programmeId": "EMBP-2024"
-                    },
-                    "projectWebsite": "https://medbio.eu",
-                    "abstract": "Assessment of Mediterranean marine biodiversity patterns",
-                    "period": {
-                        "startDate": "2024-01-01",
-                        "endDate": "2025-12-31"
-                    }
-                
-                "dataThemes": {
-                    "themes": [
-                        {
-                            "name": "Marine Ecosystems",
-                            "codeP08": "P08001"
-                        },
-                        {
-                            "name": "Water Quality",
-                            "codeP08": "P08002"
-                        }
-                    ]
-                },
-                "geographicalArea": {
-                    "seaAreas": [
-                        {
-                            "name": "Mediterranean Sea",
-                            "codeC19": "MED001"
-                        },
-                        {
-                            "name": "Mediterranean Sea",
-                            "codeC19": "MED002"
-                        }
-                    ],
-                    "geographicalCoverageDescription": "Mediterranean and Adriatic Sea regions"
-                },
-                "reference": [
-                    {
-                        "title": "Mediterranean Biodiversity Methods 2024",
-                        "publicationDate": "2023-12-01",
-                        "author": "Dr. Marco Rossi",
-                        "editor": "Marine Science Publishing"
-                    }
-                ],
-                "coordinator": {
-                    "individualName": "Prof. Maria Bianchi",
-                    "organization": {
-                        "organisationName": "OGS Trieste",
-                        "sdnIdentId": "SDN001",
-                        "role": "Lead Coordinator",
-                        "address": {
-                            "deliveryPoint": "Via Beirut 2-4",
-                            "city": "Trieste",
-                            "area": "FVG",
-                            "postalCode": "34151",
-                            "country": "Italy"
-                        },
-                        "contact": {
-                            "phone": "+39 040 2140111",
-                            "fax": "+39 040 327307",
-                            "email": "mbianchi@ogs.it",
-                            "website": "www.ogs.it"
-                        }
-                    }
-                },
-                "partners": [
-                    {
-                        "organisationName": "HCMR",
-                        "sdnIdentId": "SDN002",
-                        "role": "Research Partner",
-                        "address": {
-                            "deliveryPoint": "46.7km Athens-Sounion Ave.",
-                            "city": "Anavyssos",
-                            "area": "Attiki",
-                            "postalCode": "19013",
-                            "country": "Greece"
-                        },
-                        "contact": {
-                            "phone": "+30 2291076462",
-                            "fax": "+30 2291076347",
-                            "email": "info@hcmr.gr",
-                            "website": "www.hcmr.gr"
-                        }
-                    }
-                ],
-                "collateCentre": [
-                    {
-                        "organisationName": "IFREMER",
-                        "sdnIdentId": "SDN003",
-                        "role": "Data Center",
-                        "address": {
-                            "deliveryPoint": "155 rue Jean-Jacques Rousseau",
-                            "city": "Toulon",
-                            "area": "PACA",
-                            "postalCode": "83000",
-                            "country": "France"
-                        },
-                        "contact": {
-                            "phone": "+33 4 94 30 48 00",
-                            "fax": "+33 4 94 30 44 15",
-                            "email": "data@ifremer.fr",
-                            "website": "www.ifremer.fr"
-                        }
-                    }
-                ]
-            }
-  ]
+"projects": [
+{
+"id": "EDMERP-2024-002",
+"revisionDate": "2024-02-01",
+"projectName": "Adriatic Water Quality Monitoring",
+"projectAcronym": "AWQM",
+"projectReference": "WQ-2024-001",
+"associatedProgramme": {
+"title": "Marine Water Quality Programme",
+"revisionDate": "2024-01-15",
+"programmeId": "MWQP-2024"
+},
+"projectWebsite": "https://awqm.eu",
+"abstract": "Continuous monitoring of Adriatic Sea water quality",
+"period": {
+"startDate": "2024-03-01",
+"endDate": "2026-02-28"
+},
+"dataThemes": {
+"themes": [
+{
+"name": "Water Quality",
+"codeP08": "P08002"
+},
+{
+"name": "Marine Pollution",
+"codeP08": "P08004"
+}
+]
+},
+"geographicalArea": {
+"seaAreas": [
+{
+"name": "Mediterranean Sea",
+"codeC19": "MED002"
+}
+],
+"geographicalCoverageDescription": "Northern Adriatic Sea"
+},
+"reference": [
+{
+"title": "Water Quality Assessment Methods",
+"publicationDate": "2023-11-15",
+"author": "Dr. Anna Verdi",
+"editor": "Environmental Science Press"
+}
+],
+"coordinator": {
+"individualName": "Dr. Paolo Rossi",
+"organization": {
+"organisationName": "CNR-ISMAR",
+"sdnIdentId": "SDN004",
+"role": "Scientific Coordinator",
+"address": {
+"deliveryPoint": "Arsenale - Tesa 104",
+"city": "Venice",
+"area": "Veneto",
+"postalCode": "30122",
+"country": "Italy"
+},
+"contact": {
+"phone": "+39 041 2407927",
+"fax": "+39 041 2407940",
+"email": "info@ismar.cnr.it",
+"website": "www.ismar.cnr.it"
+}
+}
+},
+"partners": [],
+"collateCentre": []
+},
+{
+"id": "EDMERP-2024-001",
+"revisionDate": "2024-01-15",
+"projectName": "Mediterranean Biodiversity Assessment",
+"projectAcronym": "MedBio",
+"projectReference": "MB-2024-001",
+"associatedProgramme": {
+"title": "European Marine Biodiversity Programme",
+"revisionDate": "2024-01-01",
+"programmeId": "EMBP-2024"
+},
+"projectWebsite": "https://medbio.eu",
+"abstract": "Assessment of Mediterranean marine biodiversity patterns",
+"period": {
+"startDate": "2024-01-01",
+"endDate": "2025-12-31"
+},
+"dataThemes": {
+"themes": [
+{
+"name": "Marine Ecosystems",
+"codeP08": "P08001"
+},
+{
+"name": "Water Quality",
+"codeP08": "P08002"
+}
+]
+},
+"geographicalArea": {
+"seaAreas": [
+{
+"name": "Mediterranean Sea",
+"codeC19": "MED001"
+},
+{
+"name": "Mediterranean Sea",
+"codeC19": "MED002"
+}
+],
+"geographicalCoverageDescription": "Mediterranean and Adriatic Sea regions"
+},
+"reference": [
+{
+"title": "Mediterranean Biodiversity Methods 2024",
+"publicationDate": "2023-12-01",
+"author": "Dr. Marco Rossi",
+"editor": "Marine Science Publishing"
+}
+],
+"coordinator": {
+"individualName": "Prof. Maria Bianchi",
+"organization": {
+"organisationName": "OGS Trieste",
+"sdnIdentId": "SDN001",
+"role": "Lead Coordinator",
+"address": {
+"deliveryPoint": "Via Beirut 2-4",
+"city": "Trieste",
+"area": "FVG",
+"postalCode": "34151",
+"country": "Italy"
+},
+"contact": {
+"phone": "+39 040 2140111",
+"fax": "+39 040 327307",
+"email": "mbianchi@ogs.it",
+"website": "www.ogs.it"
+}
+}
+},
+"partners": [
+{
+"organisationName": "HCMR",
+"sdnIdentId": "SDN002",
+"role": "Research Partner",
+"address": {
+"deliveryPoint": "46.7km Athens-Sounion Ave.",
+"city": "Anavyssos",
+"area": "Attiki",
+"postalCode": "19013",
+"country": "Greece"
+},
+"contact": {
+"phone": "+30 2291076462",
+"fax": "+30 2291076347",
+"email": "info@hcmr.gr",
+"website": "www.hcmr.gr"
+}
+}
+],
+"collateCentre": [
+{
+"organisationName": "IFREMER",
+"sdnIdentId": "SDN003",
+"role": "Data Center",
+"address": {
+"deliveryPoint": "155 rue Jean-Jacques Rousseau",
+"city": "Toulon",
+"area": "PACA",
+"postalCode": "83000",
+"country": "France"
+},
+"contact": {
+"phone": "+33 4 94 30 48 00",
+"fax": "+33 4 94 30 44 15",
+"email": "data@ifremer.fr",
+"website": "www.ifremer.fr"
+}
+}
+]
+}
+]
 }
